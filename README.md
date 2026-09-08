@@ -40,7 +40,7 @@ llm-multiturn-chatbot/
 ├── README.md
 └── .gitignore
 
-### ⚙️ Setup
+## ⚙️ Setup
 1. Clone the repository
 git clone https://github.com/maneeshchittem-hub/llm-multiturn-chatbot.git
 2. Open the project
@@ -66,7 +66,7 @@ Do not upload the .env file to GitHub.
 
 The .env file is already excluded using .gitignore.
 
-### ▶️ Run the Project
+## ▶️ Run the Project
 
 The application has two parts:
 
@@ -100,7 +100,7 @@ streamlit run app.py
 Open the Streamlit URL shown in the terminal, usually:
 
 http://localhost:8501
-### 🔄 How It Works
+## 🔄 How It Works
 User
   ↓
 Streamlit Frontend
@@ -114,7 +114,7 @@ AI Response
 Streamlit Frontend
   ↓
 User
-### 🧠 Context Management
+## 🧠 Context Management
 
 The chatbot maintains conversation history so the AI can understand previous messages.
 
@@ -130,7 +130,7 @@ User: What is my name?
 AI: Your name is Maneesh.
 🛡️ Error Handling
 
-### The application handles:
+## The application handles:
 
 API failures
 Connection errors
