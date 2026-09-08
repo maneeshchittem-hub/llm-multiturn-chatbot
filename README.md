@@ -4,7 +4,7 @@ A conversational AI chatbot built using Python, Google Gemini, FastAPI, and Stre
 
 The chatbot supports multi-turn conversations and remembers previous messages using conversation history and context-window management.
 
-## 🚀 Features
+# 🚀 Features
 
 - 💬 Multi-turn conversations
 - 🧠 Conversation memory
@@ -18,7 +18,7 @@ The chatbot supports multi-turn conversations and remembers previous messages us
 - 🛡️ Error handling
 - 🔐 Secure API key management
 
-## 🛠️ Technologies
+# 🛠️ Technologies
 
 - Python
 - Google Gemini API
@@ -29,7 +29,7 @@ The chatbot supports multi-turn conversations and remembers previous messages us
 - Requests
 - Python-dotenv
 
-## 📁 Project Structure
+# 📁 Project Structure
 
 llm-multiturn-chatbot/
 │
@@ -40,7 +40,7 @@ llm-multiturn-chatbot/
 ├── README.md
 └── .gitignore
 
-## ⚙️ Setup
+# ⚙️ Setup
 1. Clone the repository
 git clone https://github.com/maneeshchittem-hub/llm-multiturn-chatbot.git
 2. Open the project
@@ -48,10 +48,7 @@ cd llm-multiturn-chatbot
 3. Create virtual environment
 python -m venv venv
 4. Activate virtual environment
-
-Windows PowerShell:
-
-.\venv\Scripts\Activate.ps1
+ Windows PowerShell:\venv\Scripts\Activate.ps1
 5. Install dependencies
 pip install -r requirements.txt
 🔑 API Key Setup
@@ -66,7 +63,7 @@ Do not upload the .env file to GitHub.
 
 The .env file is already excluded using .gitignore.
 
-## ▶️ Run the Project
+# ▶️ Run the Project
 
 The application has two parts:
 
@@ -114,7 +111,7 @@ AI Response
 Streamlit Frontend
   ↓
 User
-## 🧠 Context Management
+# 🧠 Context Management
 
 The chatbot maintains conversation history so the AI can understand previous messages.
 
@@ -130,7 +127,7 @@ User: What is my name?
 AI: Your name is Maneesh.
 🛡️ Error Handling
 
-## The application handles:
+# The application handles:
 
 API failures
 Connection errors
