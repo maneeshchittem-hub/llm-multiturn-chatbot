@@ -505,7 +505,7 @@ def get_bot_response(message):
     try:
 
         response = requests.post(
-            "http://127.0.0.1:8000/chat",
+            "https://llm-multiturn-chatbot-api.onrender.com/chat",
             params={
                 "message": message
             },
