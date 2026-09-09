@@ -63,13 +63,26 @@ Do not upload the .env file to GitHub.
 
 The .env file is already excluded using .gitignore.
 
-# ▶️ Run the Project
+## 🚀 Deployment
 
-The application has two parts:
+### Frontend
+The Streamlit frontend is deployed using Streamlit Community Cloud.
 
-FastAPI → Backend
-Streamlit → Frontend
-Terminal 1 — Start Backend
+### Backend
+The FastAPI backend is deployed using Render.
+
+**Backend:**  
+https://llm-multiturn-chatbot-api.onrender.com/
+
+### Architecture
+
+User
+↓
+Streamlit Cloud (Frontend)
+↓
+Render (FastAPI Backend)
+↓
+Google Gemini APIend
 
 Activate the virtual environment:
 
@@ -143,7 +156,10 @@ API keys are stored in .env
 API keys are never committed to GitHub
 👨‍💻 Author:Maneesh Chittem
 
-GitHub:
-https://github.com/maneeshchittem-hub
-live demo-link:
+### 🌐 Live Demo
+
+**Frontend:**  
 https://ai-conversation-assistant.streamlit.app
+
+**Backend API:**  
+https://llm-multiturn-chatbot-api.onrender.com
